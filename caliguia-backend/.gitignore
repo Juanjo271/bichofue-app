@@ -1,0 +1,42 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Cache y logs
+audio_cache/
+*.log
+.pytest_cache/
+.coverage
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env (pero .env.example sí)
+.env
+!.env.example
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Node (por si acaso)
+node_modules/

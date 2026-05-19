@@ -1,0 +1,95 @@
+# Proyecto Bichofué Cali - CaliGuía
+
+# Git
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Flutter / Android
+/caliguia/build/
+/caliguia/.dart_tool/
+/caliguia/.packages
+/caliguia/.flutter-plugins
+/caliguia/.flutter-plugins-dependencies
+/caliguia/pubspec.lock
+/caliguia/android/.gradle/
+/caliguia/android/app/debug/
+/caliguia/android/app/profile/
+/caliguia/android/app/release/
+/caliguia/ios/Pods/
+/caliguia/ios/.symlinks/
+/caliguia/ios/Flutter/Flutter.framework/
+/caliguia/ios/Flutter/Flutter.podspec
+/caliguia/macos/Pods/
+/caliguia/windows/flutter/ephemeral/
+/caliguia/linux/flutter/ephemeral/
+/caliguia/web/.dart_tool/
+
+# APKs y binarios
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Backend Python
+/caliguia-backend/venv/
+/caliguia-backend/__pycache__/
+/caliguia-backend/*.pyc
+/caliguia-backend/.env
+/caliguia-backend/.env.local
+/caliguia-backend/instance/
+/caliguia-backend/*.db
+/caliguia-backend/database/*.db
+/caliguia-backend/audio_cache/
+/caliguia-backend/temp/
+
+# Secrets y configuración local
+.env
+.env.local
+*.key
+*.pem
+*.p12
+
+# YOLO / Dataset
+/Dataset/
+/runs/
+*.pt
+*.onnx
+*.tflite
+*.npy
+
+# Archivos grandes
+*.tar.gz
+*.zip
+*.tar
+*.rar
+
+# Documentos del hackathon (privados)
+*.pdf
+*.pptx
+*.docx
+*.xls
+*.xlsx
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# Backups
+backup_*/
+
+# Directorios externos / skills
+ui-ux-pro-max-skill-main/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+logs/
